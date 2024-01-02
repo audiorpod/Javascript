@@ -79,6 +79,6 @@ let userTwo = userOne
 userTwo.email = "rupesh@google.com"
 
 
-console.log(userOne.email);        // the the refference is working , so the output of userOne and userTwo is same as they are taking a reeference and they are stored in heap memory 
-console.log( userTwo.email);
+console.log(userOne.email);     // output -> rupesh@google.com   // the the refference is working , so the output of userOne and userTwo is same as they are taking a reeference and they are stored in heap memory 
+console.log( userTwo.email);    // output -> rupesh@google.com
 
