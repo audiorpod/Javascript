@@ -64,5 +64,21 @@ Object ( host and does not implement [[call]]) => implementation- defined expect
 
 let myYoutubename  = " Developerjourney rk "
 let anothername = myYoutubename
+anothername = "audiorpod"
+
+console.log(myYoutubename);
 console.log(anothername);
+
+let userOne = {
+    email : "user@google.com",
+    upi: " upi@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "rupesh@google.com"
+
+
+console.log(userOne.email);        // the the refference is working , so the output of userOne and userTwo is same as they are taking a reeference and they are stored in heap memory 
+console.log( userTwo.email);
 
