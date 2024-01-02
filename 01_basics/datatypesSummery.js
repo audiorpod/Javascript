@@ -52,3 +52,17 @@ Object ( host and does not implement [[call]]) => implementation- defined expect
 */
 
 // link for documentation : https://262.ecma-international.org/5.1/#sec-11.4.3
+
+//................... MEMORY..................
+
+/* thre are two type of memory 
+1) stack memory  -> majorly use in (PRIMITIVE DATA TYPE ) -> Here we get COPY of data 
+2) heap memory   -> majorly use in ( NON-PRMITIVE DATA TYPE ) -> HERE we get REFERENCE of original value and the changes will be done in original value 
+
+
+*/
+
+let myYoutubename  = " Developerjourney rk "
+let anothername = myYoutubename
+console.log(anothername);
+
